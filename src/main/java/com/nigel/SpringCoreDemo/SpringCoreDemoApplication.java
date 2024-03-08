@@ -3,6 +3,15 @@ package com.nigel.SpringCoreDemo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/*
+@SpringBootApplication(
+		scanBasePackages = {
+				"com.nigel.SpringCoreDemo",
+				"util"
+		}
+)
+*/
+
 @SpringBootApplication
 public class SpringCoreDemoApplication {
 
