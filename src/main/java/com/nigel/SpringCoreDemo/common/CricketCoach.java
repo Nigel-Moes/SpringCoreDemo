@@ -14,6 +14,7 @@ public class CricketCoach implements Coach {
         System.out.println("In constructor: " + getClass().getSimpleName());
     }
 
+    /*
     // define our init method
     @PostConstruct
     public void runStartupProcedure(){
@@ -25,6 +26,7 @@ public class CricketCoach implements Coach {
     public void runCleanupProcedure(){
         System.out.println("In runCleanupProcedure(): " + getClass().getSimpleName());
     }
+    */
 
     @Override
     public String getDailyWorkout() {
